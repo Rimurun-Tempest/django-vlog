@@ -28,5 +28,16 @@ models.Textfield No Character Limit
 models.DateTimeField
 models.ForeignKey - Link to another model
 
+Next step is to make migrations for the newly created model:
+python manage.py makemigrations <app name>
+python manage.py migrate vlog
+This step adds the newly created model into the database
+
+
+
+
+
+For making Model available in admin we have to register it:
+admin.register.site(<Class Name>)
 
 '''
