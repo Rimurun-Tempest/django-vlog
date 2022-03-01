@@ -33,11 +33,14 @@ python manage.py makemigrations <app name>
 python manage.py migrate vlog
 This step adds the newly created model into the database
 
-
-
-
-
 For making Model available in admin we have to register it:
 admin.register.site(<Class Name>)
+
+
+
+
+QuerySets: 
+List of objects of a given Model
+Allows to read, filter and order data from the database 
 
 '''
